@@ -1,0 +1,57 @@
+@charset "utf-8";
+body {
+      font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+.progress {
+    margin-bottom: 15px;
+}
+.wh64{
+    width: 64px;
+    height: 64px;
+    border-radius:50% ;
+}
+.mar_t15{
+    margin-top: 15px;
+  
+}
+textarea.form-control{
+	height: 130px;
+}
+/*page-header*/
+.page-header{
+    margin-top: 0;
+}
+.page-header h1{
+    margin: 0;
+    font-size: 16px;
+}
+.uesr_search{
+    padding: 10px;
+    border: solid 1px #ddd;
+    border-top: none;
+}
+.alertlist .alert{
+	margin-right: 15px;
+}
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}
+/*没有小于768px，是因为Bootstrap3以移动端优先设计*/
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	
+}
